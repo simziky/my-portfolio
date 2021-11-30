@@ -622,7 +622,7 @@ flex: 1;
 
 @media screen and (max-width: 600px) {
           body{
-            background: url("images/Sprinkle.svg") no-repeat ;
+            background: url("images/Sprinkle.svg") no-repeat fixed ;
           }
         .menu-toggler{
           top: 2rem;
