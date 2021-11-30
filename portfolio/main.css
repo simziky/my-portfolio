@@ -624,6 +624,7 @@ flex: 1;
           body{
                 height: 100vh;
             background: url("images/Sprinkle.svg") no-repeat fixed ;
+            background-size: cover;
           }
         .menu-toggler{
           top: 2rem;
