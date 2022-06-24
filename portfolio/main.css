@@ -255,6 +255,9 @@ li{
 .profile-img{
    flex: 1;
    margin-right: 5rem;
+   border-radius: 50%;
+   transform: scale(1);
+   overflow: hidden;
 }
 
 .about-details{
@@ -402,6 +405,7 @@ flex: 1;
       list-style: none;
       text-align: left;
       width: 70%;
+      
 }
 
 .timeline h1{
@@ -557,11 +561,6 @@ flex: 1;
 
 /*media queries*/
 @media screen and (max-width: 768px) {
-  body{
-
-        background: url("images/sitebg2.jpg") no-repeat center fixed;
-        background-size: cover;
-  }
 
   .landing-text h1{
     font-size: 15rem;
